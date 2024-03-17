@@ -1,0 +1,81 @@
+body {
+    font-family: "Inter", sans-serif;
+    color: #0A3871;
+    background-color: #F3F5FC;
+}
+
+.texto-encriptar {
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+    width: 500px;
+    height: 100px;
+    margin: 20px 0 0 100px;
+    border-style: hidden;
+    color: #0A3871;
+    background-color: #F3F5FC;
+}
+
+.acciones {
+    margin: 100px 0 80px 100px;
+    position: absolute;
+    bottom: 0;
+    left: 10px; 
+}
+
+.advertencia {
+    font-size: 10px ;
+}
+
+.encriptar  {
+width: 200px;
+height: 40px;
+border-radius: 15px;
+background-color: #0A3871;
+color: #ffffff;
+}
+
+.desencriptar {
+width: 200px;
+height: 40px;
+border-radius: 15px;
+background-color: #D8DFE8;
+color: #0A3871;
+}
+
+.cuadro-resultado {
+    position: absolute;
+    top: 10px;
+    right: 30px;
+    background-color: #ffffff;
+    padding-bottom: 200px;
+    border-radius: 10px;
+}
+
+.imagen-resultado {
+    margin-top: 100px;
+}
+
+.resultado-mensaje {
+    width: 540px;
+}
+
+
+.boton-copia-resultado{
+    position: absolute;
+    top: 540px;
+    right: 180px;
+    width: 200px;
+    height: 40px;
+    border-radius: 15px;
+    background-color: #D8DFE8;
+    color: #0A3871;
+}
+
+.mensaje-exito, .mensaje-exito-contenido {
+    position: absolute;
+    text-align: center;
+    top: 600px;
+    right: 180px;
+    width: 200px;
+
+}
